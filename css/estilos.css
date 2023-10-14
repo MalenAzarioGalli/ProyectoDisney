@@ -1,0 +1,219 @@
+html{
+    scroll-behavior: smooth;
+}
+
+main{
+font-family: tahoma;
+font-size: 20px;
+height: auto;
+margin: auto;
+width: 1024px;
+}
+
+header{
+    width: 1024px;
+    height: 104px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a{
+    text-decoration: none;
+    font-weight: 600;
+    padding: 8px;
+    color: #3c3c3c;
+}
+
+.links{
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+
+.linkssuperior{
+    color: black;
+    background-color: aliceblue;
+}
+
+
+
+#bodyparques{
+    background-image: url(../imgs/Parques/fondoparquesjpg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#fondopeliculas{
+    background-image: url(../imgs/Peliculas/fondopeliculas.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+}
+
+#bodynemo{
+    background-image: url(../imgs/Personajes/fondodelmar.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: aliceblue;
+}
+
+#bodywoody{
+    background-image: url(../imgs/Personajes/fondowoody.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#bodycenicienta{
+    background-color: rgb(119, 119, 230);
+}
+
+#bodysimba{
+background-color: rgb(221, 185, 23);
+}
+
+#bodymulan{
+    background-image: url(../imgs/Personajes/fondomulan.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(0, 0, 0);
+}
+
+#mainpersonajes{
+    height: 500px;
+    display: flex;
+    background-color: aquamarine;
+    background-position: 0 bottom;
+}
+
+#hero-banner{
+    height: 450px;
+    display: flex;
+    align-items:start;
+    background-image: url(../imgs/Peliculas/fondopeliculas.jpg);
+    background-position: 0 bottom;
+}
+#hero-banner ul a{
+    font-size: 20px;
+    color: #fff;
+}
+
+
+
+#hero-banneranimal img{
+    width: 540px;
+    float: left;
+    margin-right: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 12px;
+    margin-top: 38px;
+}
+
+#hero-bannerepcot img{
+    width: 540px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    float: left;
+    margin-right: 30px;
+    margin-top: 95px;
+}
+
+#hero-banneruniversal img{
+    width: 540px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    float: left;
+    margin-right: 30px;
+    margin-top: 38px;
+}
+
+#hero-bannermagic img{
+    width: 540px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    float: left;
+    margin-right: 30px;
+    margin-top: 40px;
+
+}
+
+
+#hero-bannerelreyleon img{
+    width: 540px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    float: left;
+    margin-right: 30px;
+    margin-top: 40px;
+}
+
+
+#hero-bannerbuscandoadory img{
+    width: 540px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    float: left;
+    margin-right: 30px;
+    margin-top: 40px;
+}
+
+#hero-bannerbuscandoanemo img{
+    width: 540px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    float: left;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+#hero-bannerlacenicienta img{
+    width: 540px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    float: left;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+#hero-bannermulan img{
+    width: 540px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    float: left;
+    margin-right: 30px;
+    margin-top: 30px; 
+}
+
+#hero-bannertoystory img{
+    width: 540px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    float: left;
+    margin-right: 30px;
+    margin-top: 30px; 
+}
+
+#subir{
+position: fixed;
+bottom: 75px;
+right: 75px;
+padding: 12px;
+}
+
+#botondisney{
+background-color: rgba(248, 253, 253, 0);
+width: auto;
+}
+
+header{
+    background-color: #fff;
+}
